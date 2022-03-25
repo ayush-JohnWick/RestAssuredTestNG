@@ -1,0 +1,70 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ayush",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Fri, 25 Mar 2022 12:14:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 81
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"51-i10qqLrqeNTnWKjm+bMxALHe+Ls"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q%2BtH5YMGoMJPAHT7A0tTS5AlARYQKRMv%2FvhngOXXE7tVrwRoL9oC9uIMIB6q%2BAJ2o%2B8t2zQIlW3WPh62h%2B6Z2Zz4SR5VwM15hcPEFUxwzG9JdgwjvS6Wo85oNDA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f1790d8adc688a7-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "Ayush",
+    "job": "leader",
+    "id": "578",
+    "createdAt": "2022-03-25T12:14:21.579Z"
+}
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/578
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=578
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ayush",
+    "job": "leader"
+}
+HTTP/1.1 204 No Content
+Date: Fri, 25 Mar 2022 12:14:22 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gcfUzdsD21JAWS8MPXBbWGiUUXRh75DfUnWqH7sbEU79lxcPUnfw8XFLN9MnhtRfZHTpCz2Xh0WqoAfmo1gx0EiYfhRxGUK1wJSOhXrD5BXh9t2T%2BRaD5uOKNvw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f1790dd88ed777a-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
